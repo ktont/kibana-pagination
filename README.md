@@ -10,8 +10,6 @@ forked from [curlas](https://github.com/ktont/curlas)
 
 ```bash
 npm install -g kibana-pagination
-
-npm install request
 ```
 
 ## Usage
