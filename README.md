@@ -27,7 +27,7 @@ Run in shell
 
 Paste
 
-![](_img/6.png)
+![](_img/6.jpeg)
 
 
 ```bash
