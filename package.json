@@ -29,7 +29,7 @@
   "author": "zhi.liang",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ktont/kibana-pagination.git"
+    "url": "https://github.com/ktont/kibana-pagination/issues"
   },
   "homepage": "https://github.com/ktont/kibana-pagination.git",
   "dependencies": {
