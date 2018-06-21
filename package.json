@@ -1,0 +1,38 @@
+{
+  "name": "kibana-pagination",
+  "version": "4.3.5",
+  "description": "分页查询kibana",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ktont/kibana-pagination.git"
+  },
+  "keywords": [
+    "kibana",
+    "elasticsearch",
+    "es search",
+    "es"
+  ],
+  "bin": {
+    "kibana": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "package.json",
+    "thirdPart",
+    "lib",
+    "README.md"
+  ],
+  "author": "zhi.liang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ktont/kibana-pagination.git"
+  },
+  "homepage": "https://github.com/ktont/kibana-pagination.git",
+  "dependencies": {
+    "request": "*"
+  }
+}
