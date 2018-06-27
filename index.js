@@ -321,10 +321,10 @@ module.exports = function(params) {
     curlas,
     getLine: (x) => {
       //your code here
-      if(x._source.loginfo) x._source.loginfo = JSON.parse(x._source.loginfo);
-      if(x._source.message) delete x._source.message;
       let str = JSON.stringify(x, null, 4);
+      console.log('----------separate-----------');
       console.log(str);
+      console.log('==========etarapes===========');
       // return 'break'; //will break data stream
     }
   }, params_))

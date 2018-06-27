@@ -22,6 +22,11 @@ Copy
 
 
 Run in bash shell 
+- os x
+- windows with cygwin
+- linux
+
+__NOTE__ windows command.exe. look section **windows** bottom.
 
 Paste
 
@@ -53,3 +58,10 @@ curl 'https://kibana/elasticsearch/_msearch' \
 --data-binary $'{"foo":"bar"}...\n' --compressed
 EOF
 ```
+
+### windows
+
+open notepad.exe
+ctrl+v paste, and save it to a file, c:\req.sh for example.
+open cmd.exe
+curlas --js c:\req.sh
