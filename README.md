@@ -21,7 +21,7 @@ Copy
 ![](_img/1.png)
 
 
-Run in shell
+Run in bash shell 
 
 Paste
 
