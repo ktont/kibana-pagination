@@ -4,64 +4,36 @@ Crawl ElasticSearch through Kibana web.
 
 For log-data pagination, analysis, export.
 
-forked from [curlas](https://github.com/ktont/curlas)
-
-## Install
-
 ```bash
 npm install -g kibana-pagination
 ```
 
-## Usage
+## 1. Copy
 
-Chrome or Charles or Postman, network capture
-
-Copy
+Chrome / Charles / Postman, network capture
 
 ![](_img/1.png)
 
+## 2. Paste
+Save it to a file
 
-Run in bash shell 
-- os x
-- windows with cygwin
-- linux
+![](_img/2.png)
 
-__NOTE__ windows command.exe. look section **windows** bottom.
-
-Paste
-
-![](_img/6.jpeg)
-
+## 3. compile
 
 ```bash
-cat <<"EOF" | kibana
-shift-insert(windows) or cmd-v(os x)
-EOF
+kibana /tmp/req.sh
 ```
 
-The output is a nodejs module
+![](_img/3.png)
 
-You can run it directly.
+## 4. Save program
 
 ```bash
-cat <<"EOF" | kibana | node | more
-curl 'https://kibana/elasticsearch/_msearch' \
---data-binary $'{"foo":"bar"}...\n' --compressed
-EOF
+kibana /tmp/req.sh > _getLog.js
 ```
+![](_img/4.png)
 
-Or save the module into your crawler project.
 
-```bash
-cat <<"EOF" | kibana > ./_getLog.js
-curl 'https://kibana/elasticsearch/_msearch' \
---data-binary $'{"foo":"bar"}...\n' --compressed
-EOF
-```
 
-### windows
 
-open notepad.exe
-ctrl+v paste, and save it to a file, c:\req.sh for example.
-open cmd.exe
-curlas --js c:\req.sh

@@ -1,7 +1,7 @@
 {
   "name": "kibana-pagination",
-  "version": "4.3.11",
-  "description": "分页查询kibana",
+  "version": "4.3.12",
+  "description": "export kibana data in batch",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
