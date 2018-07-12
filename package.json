@@ -1,6 +1,6 @@
 {
   "name": "kibana-pagination",
-  "version": "4.3.12",
+  "version": "4.3.13",
   "description": "export kibana data in batch",
   "main": "index.js",
   "scripts": {
